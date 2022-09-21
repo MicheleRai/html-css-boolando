@@ -17,7 +17,6 @@ nav{
     z-index: 1;
 }
 .nav-container{
-    /* max-width: 1000px; */
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -28,7 +27,7 @@ nav{
 .logo{
     height: 40px;
 }
-a{
+nav a{
     color: white;
     text-decoration: none;
     padding: 0 1rem 0 1rem;
@@ -100,4 +99,22 @@ main{
 }
 .cuore:hover{
     color: red;
+}
+footer{
+    color: white;
+    background-color: #1A1A1A;
+    padding:2rem 0 3rem 0;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem 0 5rem;
+}
+footer a{
+    
+    text-decoration: none;
+    color: white;
+    padding: 0 1rem 0 0;
 }
